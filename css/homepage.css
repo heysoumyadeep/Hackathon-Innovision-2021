@@ -65,7 +65,7 @@ img
   width: 110px;
 }
 .bgimg {
-  background-image: url('img1.jpg');
+  background-image: url('../imgs/img1.jpg');
   min-height: 100vh;
   background-position: center;
   background-size: cover;
@@ -113,7 +113,7 @@ img
 }
 .about
 {
-  background-image: url('img2.jpg');
+  background-image: url('../imgs/img2.jpg');
   min-height: 100vh;
   background-position: center;
   background-size: cover;
