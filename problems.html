@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7f257b9379.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./problem.css" />
+    <title>Health Problems</title>
+  </head>
+  <body>
+    <!-- <div class="search-problem">
+      <i class="fas fa-search fa-3x"></i>
+      <input type="text" name="" id="" placeholder="Search for Symptoms" />
+    </div> -->
+
+    <div class="problems-body">
+      <section class="problems-grid">
+        <script language="javascript">
+          var problems = new Array(
+            "Diabetes",
+            "Depression",
+            "Anxiety",
+            "Yeast infection",
+            "Malaria",
+            "Typhoid",
+            "HIV",
+            "Pneumonia",
+            "Bronchitis",
+            "Hepatitis",
+            "Jaundice",
+            "Cholera",
+            "Chikungunya",
+            "Ebola Virus",
+            "Influenza",
+            "Novel Coronavirus (COVID-2019)",
+            "Plague",
+            "Smallpox",
+            "Yellow Fever",
+            "Zika Virus",
+          );
+
+          var sites = new Array(
+            "https://www.cdc.gov/diabetes/basics/diabetes.html",
+            "https://www.cdc.gov/tobacco/campaign/tips/diseases/depression-anxiety.html",
+            "https://www.healthline.com/health/anxiety-symptoms",
+
+            //TODO
+            
+          );
+          for (var hi = 0; hi < problems.length; hi++)
+            document.write(
+              '<a href="' +
+                sites[hi] +
+                '" class="problem">' +
+                problems[hi] +
+                "</a>"
+            );
+        </script>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
