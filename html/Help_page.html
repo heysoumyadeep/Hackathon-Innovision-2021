@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search" id="search">
+              <button style='font-size:24px' onclick="myfun()"> <i class='fas fa-search'></i></button>
+              </button>
+            </form>
+          </div>
+        <span class="divider"></span>
+        <a href="form.html">
+            <button class="btn-2">Choice 2</button>
+        </a>
+
+    </div>
+    <script>
+        function myFunction() {
+        var a=document.getElementById("search").value;
+        }
+    </script>
+</body>
+
+</html>
