@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('1.jpg');
+    background-image: url('../imgs/img.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-position: center; 
